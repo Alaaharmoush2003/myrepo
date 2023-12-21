@@ -27,6 +27,6 @@ jobs:
       - name: Deploy to GitHub Pages
         run: |
           git config --global user.email "alaaharmoushprivate@outlook.com"
-          git config --global user.name "alaa"
+          git config --global user.name "alaaharmoush"
           npx gh-pages -d dist  # Adjust the 'dist' folder based on your build output
 
